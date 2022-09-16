@@ -1,0 +1,11 @@
+h2 {
+    color:brown
+}
+nav {
+    background-color:aquamarine;
+    height : 50px
+}
+nav ul h3 a {
+    float : left;
+    width : 150px;
+}
