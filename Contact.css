@@ -1,11 +1,100 @@
+.container{
+    overflow: hidden;
+    background-image: url(images/scrolling.png);
+    height: 700vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    position: relative;
+    animation: slide 100s linear infinite;
+}
+
+
+
+.navBar{
+    width: 100%;
+    display: inline;
+    position: relative;
+    top: -160px;
+    left: 750px;
+    font-family: Arial Rounded MT Bold;
+    font-size:larger;
+
+}
+
+.bar{
+    z-index: -1;
+}
+
+h1 a{
+    color:#F2E9E4;
+    text-decoration: none;
+    font-family: Arial Rounded MT Bold;
+    font-size: 1.2cm;
+    margin-left:-740px;
+    
+}
+
+
+
+
 h2 {
-    color:brown
+    color:#4A4E69;
+    position: relative;
+    right: 455px;
+    font-family: Arial Rounded MT Bold;
+    font-size: 1.2cm;
+    text-align: center;
+    
 }
-nav {
-    background-color:aquamarine;
-    height : 50px
+
+nav ul h3{
+    padding-left: 0%;
+    padding-right:1%;
+    position: static;
+    
 }
+
 nav ul h3 a {
-    float : left;
-    width : 150px;
+    margin-top: -10px;
+    float:left;
+    width:20%;
+    color:#F2E9E4; 
+    text-decoration: none;
+    font-size:.6cm;
+}
+
+
+
+nav ul h1 a {
+    margin-top: 10px;
+    float:left;
+    width : 400px;
+    color:#F2E9E4; 
+    text-decoration: none;
+    font-size:1.2cm;
+    align-items: center;
+
+}
+
+p {
+position:relative;
+left: 10px;
+ width: 1000px;
+ height:50px;
+ text-align: center;
+ font-size: .7cm;
+ margin: 0 auto;
+ padding-top: 40px;
+ overflow: hidden;
+ font-family: Gill Sans;
+ color: #22223B;
+}
+
+h4{
+    color: #22223B;
+    font-family: Gill Sans;
+    text-align: center;
+    font-size: .6cm;
 }

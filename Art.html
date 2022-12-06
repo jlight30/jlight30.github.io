@@ -7,27 +7,88 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
 <body>
-    
-    <h1><a href = "index.html">Jennifer Light</a></h1>
-    <nav>
-    <ul>
-    <h3><a href = "Academics.html">Academics</a></h3>
-    <h3><a href = "Art.html">Art</a></h3>
-    <h3><a href = "Contact.html">Contact</a></h3>
-    </ul> 
-    </nav>
+    <div class = "container">
+        <div class = "sliding-background"></div>
+        <div class = "bar">
+            <img src = "images/bar.png" alt = "nav bar" width = 1500><img>
+                
+                    <div class = "navBar">
+                        <nav>
+                        <ul>
+                        <h1><a href = "index.html">Jennifer Light</a></h1>
+                        <h3><a href = "Academics.html">Academics</a></h3>
+                        <h3><a href = "Art.html">Art</a></h3>
+                        <h3><a href = "Contact.html">Contact</a></h3>
+                        </ul> 
+                        </nav>
+                    </div>
+        </div>
+                <div class = "header">
+                    <h2>~ Art ~</h2>
+                    <h3>Traditional Paintings</h3>
+                </div>
+            <div class = "rectangle">
+                <div class = "small">
+                    <img src = "images/rectangle.png" alt="rectangle" width="900">
+                </div>
+                
 
-    <h2>Art</h2>
-    <ul>
-        <img src = "arts/IMG_6345 (1).jpg" alt = "Painting of a woman" width = 800><img>
-        <img src = "arts/IMG_6227 (1).jpg" alt = "Genesee Falls" width = 800><img>
-        <img src = "arts/IMG_5984.jpg" alt = "Disintegration of Time" width = 800><img>
-        <img src = "arts/IMG_2052 (1).jpg" alt = "dog portrait" width = 800><img>
-        <img src = "arts/FullSizeRender.jpg" alt = "painting of my friend Vaishu" width = 800><img>
-        <img src = "arts/IMG_1667 (1).jpg" alt = "Painting of Lucky" width = 800><img>
+                   
+             
+                    <div class="swiper">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                          <!-- Slides -->
+                          <div class="swiper-slide"><img src = "arts/IMG_6345 (1).jpg" width = 100><img></div>
+                          <div class="swiper-slide"><img src = "arts/IMG_6227 (1).jpg" width = 500px><img></div>
+                          <div class="swiper-slide"><img src = "arts/IMG_5984.jpg" alt = "Disintegration of Time" width = 500px><img></div>
+                          <div class="swiper-slide"><img src = "arts/IMG_2052 (1).jpg" alt = "dog portrait" width = 500px><img></div>
+                          <div class="swiper-slide"><img src = "arts/FullSizeRender.jpg" alt = "painting of my friend Vaishu" width = 500px><img></div>
+                          <div class="swiper-slide"><img src = "arts/IMG_1667 (1).jpg" alt = "Painting of Lucky" width = 500px><img></div>
+                          ...
+                        </div>
+                        <!-- If we need pagination -->
+                        <div class="swiper-pagination"></div>
+                      
+                        <!-- If we need navigation buttons -->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    
+                      </div>
+            </div>       
 
-    </ul>
-    
+            <div class = "animations">
+                <h3>Animations</h3>
+                <img src = "digi/bear_slide.gif" width = 800px><img> 
+                <img src = "digi/lionboi.gif" width = 800px><img> 
+            </div>
+            
+
+    </div> 
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+});
+    </script>
 </body>
 </html>
