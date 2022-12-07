@@ -1,5 +1,5 @@
 .container{
-    overflow: hidden;
+    overflow:visible;
     background-image: url(images/scrolling.png);
     height: 120vh;
     width: 100%;
@@ -8,82 +8,93 @@
     box-sizing: border-box;
     position: relative;
     animation: slide 100s linear infinite;
+    z-index: -1;
 }
 
 
 
 .navBar{
     width: 100%;
-    display: inline;
-    position: relative;
-    top: -160px;
-    left: 750px;
+    position:absolute;
+
     font-family: Arial Rounded MT Bold;
     font-size:larger;
+    
+    margin-left: auto;
+    margin-right: auto;
+    
+   
 
 }
 
 .bar{
-    z-index: -1;
+    margin-bottom: -11%;
 }
 
+
+
+
+
 h1 a{
+    position: absolute;
     color:#F2E9E4;
     text-decoration: none;
     font-family: Arial Rounded MT Bold;
-    font-size: 1.2cm;
-    margin-left:-740px;
+    font-size: 1.3cm;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:0cm;
+    width: 30%;
+   
     
+    
+
 }
 
 
 
 
 h2 {
+    margin-top: 12%;
+    margin-bottom:5%;
+    margin-left: auto;
+    margin-right: auto;
     color:#4A4E69;
-    position: relative;
-    right: 455px;
+    text-align: center;
     font-family: Arial Rounded MT Bold;
     font-size: 1.2cm;
-    text-align: center;
+    width: 20%;
+    
     
 }
 
-nav ul h3{
-    padding-left: 0%;
-    padding-right:1%;
-    position: static;
-    
-}
+
 
 nav ul h3 a {
-    margin-top: -10px;
-    float:left;
-    width:20%;
+    margin-top: -1%;
+    margin-left: auto;
+    margin-right: 5%;
+    width:15%;
+    text-align: right;
+    float:right;
+
     color:#F2E9E4; 
     text-decoration: none;
     font-size:.6cm;
-}
-
-
-
-nav ul h1 a {
-    margin-top: 10px;
-    float:left;
-    width : 400px;
-    color:#F2E9E4; 
-    text-decoration: none;
-    font-size:1.2cm;
-    align-items: center;
 
 }
+
+
+
+
 
 p {
- width: 750px;
+
+ width: 50%;
  text-align: left;
- font-size: 20px;
- margin: 0 auto;
- padding-top: 40px;
+ font-size:120%;
+ margin:auto;
+ padding-top: 2%;
  overflow: hidden;
  font-family: Gill Sans;
  color: #22223B;
@@ -92,14 +103,18 @@ p {
 }
 
 .par{
-    margin-top: -520px;
+    margin-top: -40%;
 }
 
 
 
-.me{
-    margin-left: 100px;
-    
+
+
+.center{
+    display: block;
+    margin-left: 5%;
+    margin-right: auto;
+    width: 30%;
 }
 
 
