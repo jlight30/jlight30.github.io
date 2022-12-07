@@ -1,121 +1,115 @@
+
+
 .container{
-    overflow:visible;
+    overflow: hidden;
     background-image: url(images/scrolling.png);
-    height: 120vh;
+    height: 700vh;
     width: 100%;
     background-size: cover;
     background-position: center;
     box-sizing: border-box;
     position: relative;
     animation: slide 100s linear infinite;
-    z-index: -1;
+   
 }
-
-
-
 .navBar{
+    
+    background-color: #9a8c98;
+    overflow: hidden;
+    font-family: Arial Rounded MT Bold;
+    height: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: -1;
     width: 100%;
-    position:absolute;
-
-    font-family: Arial Rounded MT Bold;
-    font-size:larger;
     
-    margin-left: auto;
-    margin-right: auto;
-    
-   
 
 }
+.navBar a:hover { 
+    color: #4a4e69;
+}
 
-.bar{
-    margin-bottom: -11%;
+h1 a:hover{
+    color: #4a4e69;
 }
 
 
-
-
-
-h1 a{
+h1{
+    
     position: absolute;
-    color:#F2E9E4;
-    text-decoration: none;
+    margin-left: 2%;
     font-family: Arial Rounded MT Bold;
-    font-size: 1.3cm;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top:0cm;
-    width: 30%;
-   
     
-    
-
 }
+h1 a{
+    color:#F2E9E4; 
+    text-decoration: none;
+    font-size:120%;
+}
+
+
+
+
+
+.navBar a{
+    float:right;
+    width:15%;
+    color:#F2E9E4; 
+    text-decoration: none;
+    font-size:.6cm;
+}
+
+
+
 
 
 
 
 h2 {
-    margin-top: 12%;
-    margin-bottom:5%;
+    color:#4A4E69;
+    position: relative;
     margin-left: auto;
     margin-right: auto;
-    color:#4A4E69;
-    text-align: center;
+    width: 50%;
     font-family: Arial Rounded MT Bold;
     font-size: 1.2cm;
-    width: 20%;
-    
+    text-align: center;
     
 }
 
 
 
-nav ul h3 a {
-    margin-top: -1%;
-    margin-left: auto;
-    margin-right: 5%;
-    width:15%;
-    text-align: right;
-    float:right;
-
-    color:#F2E9E4; 
-    text-decoration: none;
-    font-size:.6cm;
-
-}
-
-
-
-
-
-p {
+.par {
 
  width: 50%;
  text-align: left;
  font-size:120%;
- margin:auto;
+ margin-left: 40%;
+ margin-right:auto;
  padding-top: 2%;
  overflow: hidden;
  font-family: Gill Sans;
  color: #22223B;
- padding-left: 375px;
+ margin-top: auto;
+ float:center;
+ 
  
 }
 
-.par{
-    margin-top: -40%;
-}
 
 
-
-
-
-.center{
-    display: block;
+.me{
     margin-left: 5%;
     margin-right: auto;
-    width: 30%;
+    width: 20%;
+    float:left;
 }
+
+
+
+
+
+
 
 
 
