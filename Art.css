@@ -1,6 +1,6 @@
+
+
 .container{
-    align-items: center;
-    justify-content: center;
     overflow: hidden;
     background-image: url(images/scrolling.png);
     height: 700vh;
@@ -10,33 +10,65 @@
     box-sizing: border-box;
     position: relative;
     animation: slide 100s linear infinite;
+   
 }
-
-
-
 .navBar{
-    width: 100%;
-    display: inline;
-    position: relative;
-    top: -160px;
-    left: 750px;
+    
+    background-color: #9a8c98;
+    overflow: hidden;
     font-family: Arial Rounded MT Bold;
-    font-size:larger;
-
-}
-
-.bar{
+    height: 120px;
+    margin-left: auto;
+    margin-right: auto;
     z-index: -1;
+    width: 100%;
+    
+
+}
+.navBar a:hover { 
+    color: #4a4e69;
 }
 
-h1 a{
-    color:#F2E9E4;
-    text-decoration: none;
+h1 a:hover{
+    color: #4a4e69;
+}
+
+
+h1{
+    
+    position: absolute;
+    margin-left: 2%;
+    margin-right:40%;
     font-family: Arial Rounded MT Bold;
-    font-size: 1.2cm;
-    margin-left:-740px;
+    overflow-wrap: normal;
+    width: 35%;
     
 }
+h1 a{
+    color:#F2E9E4; 
+    text-decoration: none;
+    font-size:100%;
+    overflow-wrap: normal;
+    width: 35%;
+
+    
+}
+
+
+
+
+
+.navBar a{
+    
+    float:right;
+    width:15%;
+    color:#F2E9E4; 
+    text-decoration: none;
+    font-size:100%;
+}
+
+
+
 
 
 
@@ -44,7 +76,9 @@ h1 a{
 h2 {
     color:#4A4E69;
     position: relative;
-    right: 455px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
     font-family: Arial Rounded MT Bold;
     font-size: 1.2cm;
     text-align: center;
@@ -92,44 +126,46 @@ nav ul h1 a {
 }
 
 p {
-position:relative;
-left: 10px;
- width: 1000px;
- height:50px;
- text-align: left;
- font-size: 20px;
- margin: 0 auto;
- padding-top: 40px;
- overflow: hidden;
- font-family: Gill Sans;
- color: #363B38;
+    position:relative;
+     width: 90%;
+     text-align: left;
+     font-size: 20px;
+     margin-left: 5%;
+     margin-right: 5%;
+     padding-top: 2%;
+     overflow: hidden;
+     font-family: Gill Sans;
+     color: #22223B;
 }
+    
 
 .swiper{
-    width: 60%;
-    height:1000px;
-    margin-top: -1050px;
-    
-    
-    
-    
+    width: 90%; 
+   
 }
 
+
 .swiper-slide img{
-width: 65%;
-margin-left: 155px;
-margin-top: 30px;
-
-
+    /* margin-top: auto;
+    width: 80%;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    
+    display: block; */
+    display: block;
+    margin: auto;
+    width: 80%;
 }
 
 .rectangle{
-    z-index: -1;  
+    /* z-index: -1;   */
+    /* background-color: #c9ada7; */
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
-.small {
-    padding-left: 298px;
 
-}
 .animations{
     align-content: center;
     padding-top: 100px;
