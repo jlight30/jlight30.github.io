@@ -3,7 +3,7 @@
 .container{
     overflow: hidden;
     background-image: url(images/scrolling.png);
-    height: 300vh;
+    height: 320vh;
     width: 100%;
     background-size: cover;
     background-position: center;
